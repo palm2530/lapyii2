@@ -1,0 +1,7 @@
+jobs:
+  build:
+    docker:
+      - image: cimg/8.2.12-browsers
+    steps:
+      - checkout
+      - run: php --version
